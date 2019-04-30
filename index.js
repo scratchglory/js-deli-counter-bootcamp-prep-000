@@ -1,7 +1,8 @@
 //takeANumber
-function takeANumber(line, name) {
-  line.push(name)
-  return (`Welcome, ${name}. You are number ${line.length} in line.`)
+function takeANumber(line, name) {   // calling a function "takeANumber" with parameters of "line & name"
+  line.push(name)                   // .push, which is destructive, adds the element to the end of the array 
+  return (`Welcome, ${name}. You are number ${line.length} in line.`) 
+    // when returned, it will return the quote with the inserted name and taking line.length, the number/length of the line and insterting it. 
 }
 
 //nowServing
